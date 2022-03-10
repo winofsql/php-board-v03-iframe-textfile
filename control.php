@@ -6,7 +6,7 @@ header( "Content-Type: text/html; charset=utf-8" );
 require_once("model.php");
 
 // POST ( FORM からの送信 )
-if( $_SERVER["REQUEST_METHOD"] == "POST" ){
+if ( $_SERVER["REQUEST_METHOD"] == "POST" ) {
 
     write_data();
 
