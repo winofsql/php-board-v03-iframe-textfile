@@ -27,4 +27,4 @@ mb_internal_encoding('UTF-8');
 $dataFile = 'board.dat';
 $line_data = "";
 $kensu = "";
-$view_head_height = "270";
+$view_head_height = "330";
