@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<h3 class="alert alert-primary">投稿一覧 (<?= $kensu ?>件)</h3>
+<h4 class="alert alert-primary">投稿一覧 (<?= $kensu ?>件)</h4>
 <div id="databody">
 
     <ul>
