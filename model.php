@@ -10,7 +10,7 @@ function write_data() {
     $message = trim($_POST["message"]);
     $user = trim($_POST["user"]);
 
-    if ($message !== ""){
+    if ($message !== "") {
 
         if ( $user == "" ) {
             $user = "匿名で投稿";
