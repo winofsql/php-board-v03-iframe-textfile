@@ -52,10 +52,10 @@ else {
 // *************************************
 // 画面
 // *************************************
-if( $_SERVER["REQUEST_METHOD"] == "GET" ){
+if ( $_SERVER["REQUEST_METHOD"] == "GET" ) {
     require_once("view.php");
 }
-if( $_SERVER["REQUEST_METHOD"] == "POST" ){
+if ( $_SERVER["REQUEST_METHOD"] == "POST" ) {
     require_once("view2.php");
 }
 
