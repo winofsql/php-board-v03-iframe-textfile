@@ -37,8 +37,6 @@ function write_data() {
         //header('Location: control.php');
         //exit;
     }
-
-
 }
 
 

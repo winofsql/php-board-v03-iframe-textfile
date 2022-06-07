@@ -39,13 +39,39 @@ body {
 <div id="head">
     <h3 class="alert alert-primary">掲示板</h3>
     <div id="content" class="m-4">
-	    <form action="" method="POST" target="myframe">
-	        <div><span style='display:inline-block;width:100px;'>件名</span> <input type="text" name="message" style='width:600px;'> <input type="submit" value="投稿" class="ms-3"></div>
-	        <div><span style='display:inline-block;width:100px;'>ユーザ</span> <input type="text" name="user" style='width:600px;'></div>
+        <form action=""
+            target="myframe"
+            method="POST">
+	        <div>
+                <span style='display:inline-block;width:100px;'>
+                    件名
+                </span>
+                <input
+                    type="text"
+                    name="message"
+                    style='width:600px;'
+                    >
+                <input
+                    type="submit"
+                    name="send"
+                    value="投稿"
+                    class="ms-3"
+                    >
+            </div>
+	        <div>
+                <span style='display:inline-block;width:100px;'>
+	               ユーザ
+	            </span>
+	            <input
+	               type="text"
+	               name="user"
+	               style='width:600px;'
+	               >
+            </div>
 	        <div>
 	            <textarea id="body" name="body"></textarea>
 	        </div>
-	    </form>
+        </form>
     </div>
 </div>
 
