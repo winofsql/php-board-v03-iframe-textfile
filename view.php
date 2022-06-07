@@ -61,13 +61,13 @@ body {
             </div>
             <div>
                 <span style='display:inline-block;width:100px;'>
-                ユーザ
+                    ユーザ
                 </span>
                 <input
-                type="text"
-                name="user"
-                style='width:600px;'
-                >
+                    type="text"
+                    name="user"
+                    style='width:600px;'
+                    >
             </div>
             <div>
                 <textarea id="body" name="body"></textarea>
