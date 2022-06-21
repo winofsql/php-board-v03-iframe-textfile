@@ -38,7 +38,10 @@ body {
 
 <body>
 <div id="head">
-    <h3 class="alert alert-primary">掲示板</h3>
+    <h3 class="alert alert-primary">
+        <a href="control.php">掲示板</a>
+        <a href=".." style="float:right;text-decoration:none;">📂</a>
+    </h3>
     <div id="content"
         class="m-4">
         <form action=""
